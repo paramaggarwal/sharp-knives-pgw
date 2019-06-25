@@ -34,9 +34,9 @@ For 1, 2, 3, and 4 we will use Ubuntu 16 LTS through Vagrant. For 5, we will `pg
 
 Here's the setup procedure:
 
-1. Install the latest [Vagrant][vagrant]. The version is 2.2.3 as of writing this.
+1. Install the latest [Vagrant][vagrant]. The version is 2.2.x as of writing this.
 1. Install the latest [DataGrip][datagrip]. The version is 2018.3.x as of writing this.
-1. Install the latest [pgcli][pgcli] on `host` box. The version is 2.0.2 as of writing this. In effect, pgcli is installed 2 times. Once on `host` box by you, and once on `guest` box, by vagrant during provisioning.
+1. Install the latest [pgcli][pgcli] on `host` box. The version is 2.1.x as of writing this. In effect, pgcli is installed 2 times. Once on `host` box by you, and once on `guest` box, by vagrant during provisioning.
 1. Fork this repo under a private repository.  Fork is important, because you will want to push your own changes, and private is important because this material is only available to workshop attendees. GitHub now supports private forks. Gitlab has always had private forks. Make your choice, and get started!
 1. Ensure vagrant works on your dev box by running `vagrant list-commands`. You should get an output like:
 
