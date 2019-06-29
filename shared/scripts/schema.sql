@@ -169,8 +169,8 @@ ALTER SEQUENCE public.authors_id_seq OWNED BY public.authors.id;
 CREATE TABLE public.books (
     id integer NOT NULL,
     name character varying NOT NULL,
-    created_at timestamp without time zone DEFAULT now(),
-    isbn uuid DEFAULT public.gen_random_uuid() NOT NULL
+    isbn uuid DEFAULT public.gen_random_uuid() NOT NULL,
+    created_at timestamp without time zone DEFAULT now()
 );
 
 
