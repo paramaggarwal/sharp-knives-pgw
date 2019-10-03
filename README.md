@@ -34,6 +34,7 @@ For 1, 2, 3, and 4 we will use Ubuntu 16 LTS through Vagrant. For 5, we will `pg
 
 Here's the setup procedure:
 
+1. Checkout the latest copy of the cloned repo. This is important.
 1. Install the latest [Vagrant][vagrant]. The version is 2.2.x as of writing this.
 1. Install the latest [DataGrip][datagrip]. The version is 2018.3.x as of writing this.
 1. Install the latest [pgcli][pgcli] on `host` box. The version is 2.1.x as of writing this. In effect, pgcli is installed 2 times. Once on `host` box by you, and once on `guest` box, by vagrant during provisioning.
