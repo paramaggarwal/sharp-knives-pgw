@@ -203,3 +203,18 @@ WHERE id = 4;
 
 COMMIT;
 ROLLBACK;
+
+
+CREATE TYPE APPOINTMENT_TYPE AS ENUM (
+    'email',
+    'phone',
+    'text',
+    'other',
+--     'in_person',
+    'note'
+    );
+
+BEGIN;
+ALTER TYPE APPOINTMENT_TYPE ADD VALUE 'in_person';
+
+COMMIT;
